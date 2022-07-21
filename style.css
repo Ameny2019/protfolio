@@ -1,0 +1,314 @@
+/* css générale */
+*{
+  font-family: 'Satisfy', cursive;
+  margin: 0px;
+}
+
+/* css pour écriture  vertical  */
+.mode-writing{
+  color: rgb(5, 5, 77);
+  text-transform: uppercase;
+  text-transform:capitalize;
+  writing-mode: vertical-rl;
+  font-size: large;
+  font-weight: 800;
+  flex-wrap: nowrap;
+  margin-block: 10px;
+  }
+
+/* css pour le triangle  */
+  #triangle {
+    display: flex;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 30px solid rgb(159, 26, 139);
+  
+}
+
+/* css pour le header  */
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  color: #f7345e;
+  background : linear-gradient(-107deg,#82009f 0%,#f7345e 100%);  padding-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.nav_element{
+  display: inline;
+  text-decoration-line: none;
+  display: flex;
+  flex-direction: row;
+}
+.one{
+
+  color:rgb(248, 248, 250) ;
+  text-decoration-line: none;
+  font-weight: 800;
+  font-size: larger;
+  margin:  8px ; 
+  flex-direction: row;
+  }
+
+  h2{
+    font-weight: 700;
+    padding: 2px 1px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .image1 {
+    border-radius: 180%;
+    width:200px;
+    clip-path:ellipse(50% 50%);
+    background-size: cover;
+    border: 10px;
+  
+    }
+    footer{
+  
+      width: 100%;
+          padding: 20px;
+          margin-top: 20px;
+          align-items:  flex-end;
+  }
+  
+  .div1{
+      width: 50%;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      font-family: Verdana;
+      font-weight: 500;
+    
+  }
+  
+    div#About {
+      display: flex;
+      margin: 50px;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+  }
+
+  div .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 80px;
+  }
+  
+  .sis{   width: 65%;
+    font-weight: 700;
+    margin-bottom: 30px;
+    
+  }
+  
+  .overview{
+    width: 50%;
+    text-align: justify;
+    margin:50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+  }
+  
+  img.fullstackimg {
+    width: 400px;
+  
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  #container1{}
+  
+ #container1:hover .overlay {
+    width: 100%;
+    left: 0;
+  }
+
+
+  .btn {
+    
+    width: 100px;
+    border: 2px solid  #f7345e;
+    background-color: white;
+    margin:0px, 7px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 15px;
+
+    
+  }
+  
+  
+
+ /* Footer  */
+
+
+#footer {
+  color: #f7345e ;
+  background : linear-gradient(-107deg,#82009f 0%,#f7345e 100%);  padding-top: 50px;
+  padding-bottom : 40px;
+  }
+  /*END FOOTER SOCIAL DESIGN*/
+  .single_footer{}
+  @media only screen and (max-width:768px) { 
+  .single_footer{margin-bottom:30px;}
+  }
+  .single_footer h4 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 20px;
+  }
+  .single_footer h4::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: #fff;
+  margin-top: 20px;
+  }
+  .single_footer p{color:#fff;}
+  .single_footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+  .single_footer ul li{}
+  .single_footer ul li a {
+  color: #fff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  line-height: 36px;
+  font-size: 15px;
+  text-transform: capitalize;
+  }
+  .single_footer ul li a:hover { color: #58ff36; }
+  
+  .single_footer_address ul li{color:#fff;}
+  .single_footer_address ul li span {
+  font-weight: 400;
+  color: #fff;
+  line-height: 28px;
+  }
+  .contact_social ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  /*START SOCIAL PROFILE CSS*/
+  .social_profile {margin-top:40px;}
+  .social_profile ul{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  }
+  .social_profile ul li{float:left;}
+  .social_profile ul li a {
+  text-align: center;
+  border: 0px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  margin: 0px 5px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  border: 1px solid rgba(255,255,255,0.2);
+  }
+  /* media query mt3o */
+  @media only screen and (max-width:768px) { 
+  .social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+  }
+  @media only screen and (max-width:480px) { 
+  .social_profile ul li a{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  }
+  }
+  .social_profile ul li a:hover{
+
+
+  background:  #f7345e;
+  border: 1px solid  #f7345e;
+  color:#fff;
+  border:0px;
+  }
+  /*END SOCIAL PROFILE CSS*/
+  
+
+
+  /* partie footer  */
+a,
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a:active,
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+section {
+    padding: 60px 0;
+}
+
+/* Footer  */
+/* image ameny css */
+
+.circle{
+  height:300px;
+  width:300px;
+  background-color:#000;
+  border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+  transition:all 0.5s;
+  overflow:hidden;
+  position:relative;
+  cursor:pointer;
+}
+
+.circle:hover{
+  height:300px;
+  width:300px;
+  background-color:#000;
+  border-radius:20px;
+}

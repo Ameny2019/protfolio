@@ -1,0 +1,263 @@
+
+    .mb{  margin-top: 400px;  
+          margin-bottom: 100px;
+          color: aliceblue;
+
+          
+        }
+
+    .mb-3{
+        justify-content:center; 
+        margin-left :50px;
+        width: 80%;
+        
+    }
+
+.glass{
+background: rgba(240, 238, 238, 0.208);
+border-radius: 16px;
+box-shadow: 0 4px 40px rgba(253, 252, 252, 0.139);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+width: 700px;
+height: 400px;
+margin-top: 70px;
+margin-left: 400px;
+margin-right: 100px;
+align-items: center;
+}
+.button1 {
+backdrop-filter: blur(50px);
+background-color: #f7345e;
+box-shadow: 0 4px 40px rgba(124, 123, 123, 0.358);
+border-radius: 20%;
+border-color: aliceblue;
+color: white;
+margin-left:70px;
+}
+
+.ktiba1{
+    margin-left:10px;
+    margin-top: 100px;
+    font-size: 50px;
+    color:aliceblue;
+    font-weight: bolder;
+    text-shadow: 0px 4px 4px rgb(73, 73, 73) ;
+    text-align: center;
+
+    }
+
+body { 
+background-color: #f7345e;
+background: linear-gradient(-107deg ,#82009f 0%,#f7345e 100%);
+font-size: large;
+    }
+
+/* doc le5er */
+
+.headercontact{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    /* color: #f7345e; */
+    /* background : linear-gradient(-107deg,#82009f 0%,#f7345e 100%);  padding-top: 50px; */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  .nav_element{
+    display: inline;
+    text-decoration-line: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .one{
+    color:rgb(248, 248, 250) ;
+    text-decoration-line: none;
+    font-weight: 800;
+    font-size: larger;
+    margin:  8px; 
+    flex-direction: row;
+    }
+  
+    h2{
+      font-weight: 700;
+      padding: 2px 1px 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    footer{
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        align-items:  flex-end;
+    }
+    
+    .div1
+    {
+        width: 50%;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        font-family: Verdana;
+        font-weight: 500;
+    }
+  
+    div .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      margin-left: 80px;
+    }
+    
+ 
+    
+    .overview{
+      width: 50%;
+      text-align: justify;
+    }
+    
+    
+
+  
+   /* Footer   contact*/
+  
+  
+  #footer {
+    color: #f7345e ;
+    background : linear-gradient(-107deg,#82009f 0%,#f7345e 100%);  padding-top: 50px;
+    padding-bottom : 40px;
+    }
+    /*END FOOTER SOCIAL DESIGN*/
+    .single_footer{}
+    @media only screen and (max-width:768px) { 
+    .single_footer{margin-bottom:30px;}
+    }
+    .single_footer h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    }
+    .single_footer h4::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: #fff;
+    margin-top: 20px;
+    }
+    .single_footer p{color:#fff;}
+    .single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    .single_footer ul li{}
+    .single_footer ul li a {
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height: 36px;
+    font-size: 15px;
+    text-transform: capitalize;
+    }
+    .single_footer ul li a:hover { color: #58ff36; }
+    
+    .single_footer_address ul li{color:#fff;}
+    .single_footer_address ul li span {
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    }
+    .contact_social ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    
+    /*START SOCIAL PROFILE CSS*/
+    .social_profile {margin-top:40px;}
+    .social_profile ul{
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    }
+    .social_profile ul li{float:left;}
+    .social_profile ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    margin: 0px 5px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border: 1px solid rgba(255,255,255,0.2);
+    }
+    /* media query mt3o */
+    @media only screen and (max-width:768px) { 
+    .social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+    }
+    @media only screen and (max-width:480px) { 
+    .social_profile ul li a{
+    width:40px;
+    height:40px;
+    line-height:40px;
+    }
+    }
+    .social_profile ul li a:hover{
+  
+  
+    background:  #f7345e;
+    border: 1px solid  #f7345e;
+    color:#fff;
+    border:0px;
+    }
+    /*END SOCIAL PROFILE CSS*/
+    
+  
+  
+    /* partie footer  */
+  a,
+  
+  a:hover,
+  a:focus,
+  a:active {
+      text-decoration: none;
+      outline: none;
+  }
+  
+  a:active,
+  
+  ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+  section {
+      padding: 60px 0;
+  }
+  
+  /* Footer  */
+  
+
+
+
